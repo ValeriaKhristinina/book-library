@@ -1,12 +1,13 @@
 import './content.css';
-import Book from '../book/book';
+import BookItem from '../book-item/book-item';
+import { fakeBooks } from '../../utils/mocks';
 
 function Content() {
   return (
     <section className="content container">
       <section className="content-box">
-        {[1, 2, 3, 4, 5, 6].map(item => {
-          return <Book />
+        {fakeBooks.map(item => {
+          return <BookItem book={item} />
         })}
 
       </section>

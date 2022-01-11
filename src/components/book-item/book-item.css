@@ -15,6 +15,11 @@
   background-color: gainsboro;
 }
 
+.book__cover img {
+  width: 160px;
+  height: 220px;
+}
+
 .book__title {
   font-size: 22px;
   font-weight: 450;
