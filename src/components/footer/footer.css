@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 24px 0;
+  margin-top: 16px;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.copyright span {
+  opacity: 0.6;
+}
+
+.copyright a {
+  color: black;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  color: #423970;
+}
