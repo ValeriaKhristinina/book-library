@@ -17,3 +17,18 @@ h1, h2, h3, p {
     margin: 0 auto;
 }
 
+.btn {
+  font-size: 24px;
+  padding: 16px 32px;
+  border-color: #423970;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  border-color: transparent;
+  background-color: #423970;
+  color: #fff;
+}
+
