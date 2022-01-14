@@ -1,0 +1,30 @@
+.search{
+  display: flex;
+  align-items: center;
+}
+.search__icon {
+  cursor: pointer;
+}
+.search__icon img {
+  width: 40px;
+  height: 40px;
+  transform: rotateY(180deg);
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-form__input {
+  font-size: 22px;
+  margin-right: 16px;
+  min-width: 200px;
+  border: 3px solid black;
+  border-radius: 6px;
+}
+
+.search-form__close {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

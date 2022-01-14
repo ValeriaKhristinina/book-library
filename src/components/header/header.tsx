@@ -1,11 +1,12 @@
 import './header.css';
+import Logo from '../logo/logo';
+import Search from '../search/search';
 
 function Header() {
   return (
     <header className="page-header container">
-      <div className="logo">
-        <img src="https://img.icons8.com/doodle/96/000000/books.png" alt="logo" />
-      </div>
+      <Logo />
+      <Search />
     </header>
   )
 }

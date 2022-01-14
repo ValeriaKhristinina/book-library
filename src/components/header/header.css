@@ -1,8 +1,5 @@
 .page-header {
+  display: flex;
+  justify-content: space-between;
   padding: 16px 0;
-}
-
-.logo img {
-  width: 72px;
-  height: 72px;
 }
