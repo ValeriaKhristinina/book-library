@@ -7,7 +7,7 @@ function Content() {
     <section className="content container">
       <section className="content-box">
         {fakeBooks.map(item => {
-          return <BookItem book={item} />
+          return <BookItem book={item} key={`${item.title}+${item.id}`} />
         })}
 
       </section>

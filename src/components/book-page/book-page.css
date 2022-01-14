@@ -1,0 +1,15 @@
+.book-page {
+  display: flex;
+  padding: 80px 0;
+}
+
+.book-page__cover {
+  width: 475px;
+  height: 660px;
+  margin-right: 40px;
+  background-color: thistle;
+}
+
+.book-page__info {
+  padding-top: 40px;
+}
